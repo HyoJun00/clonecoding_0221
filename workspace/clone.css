@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 상단 메뉴 전체 */
+.header-top {
+    border: 2px solid red;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 상단 로고, 네비게이션 */
+.top-left ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 370px;
+}
+
+.top-left li {
+    list-style: none;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.nav a {
+    font-weight: 550;
+    text-decoration-line: none;
+}
+
+.nav a:visited {
+    color: black;
+}
+
+/* 상단 가운데 검색창 */
+.top-middle form {
+    width: 280px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
