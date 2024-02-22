@@ -43,12 +43,13 @@ body {
 
 /* 상단 가운데 검색창 */
 .top-middle form {
-    width: 280px;
+    width: 250px;
     height: 40px;
     border-radius: 6px;
     background-color: #f4f4f4;
     display: flex;
     flex-wrap: wrap;
+    padding: 0 0.75rem;
 }
 
 .icon {
@@ -57,4 +58,17 @@ body {
     border: none;
     margin: 0;
     cursor: pointer;
+}
+
+.input {
+    border: none;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin: 0 5px;
+    font-weight: 550;
+}
+
+.input::placeholder {
+    color: #cacaca;
+    font-size: .845rem;
 }
