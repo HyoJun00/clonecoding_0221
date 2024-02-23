@@ -5,10 +5,10 @@ body {
 
 /* 상단 메뉴 전체 */
 .header-top {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 50%;
     height: 100%;
-    margin: auto;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,4 +71,57 @@ body {
 .input::placeholder {
     color: #cacaca;
     font-size: .845rem;
+}
+
+/* 상단 오른쪽 로그인 */
+.top-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-right ul {
+    display: flex;
+    margin: 0 10px;
+    padding: 0;
+    line-height: 44px;
+}
+
+.login,
+.join {
+    list-style: none;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.top-right ul li a {
+    text-decoration-line: none;
+}
+
+.login a:visited,
+.join a:visited {
+    color: black;
+}
+
+.gosu-join {
+    border-radius: 6px;
+    border: none;
+    width: 80px;
+    height: 40px;
+    background-color: #00c7ae;
+}
+
+.gosu-join:hover {
+    background-color: #00a18d;
+    border-color: #009481;
+}
+
+.gosu-join a {
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.gosu-join a:visited {
+    color: white;
 }
