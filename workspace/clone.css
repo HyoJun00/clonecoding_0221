@@ -5,13 +5,13 @@ body {
 
 /* 상단 메뉴 전체 */
 header {
-    border-bottom: 1px solid rgb(240, 240, 240);
+    /* border-bottom: 1px solid rgb(240, 240, 240); */
     width: 100%;
     height: 72px;
 }
 
 .header-top {
-    width: 50%;
+    width: 970px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -34,7 +34,7 @@ header {
 }
 
 .logo img {
-    width: 80px;
+    width: 79.5px;
 }
 
 .nav a {
@@ -132,10 +132,10 @@ header {
     color: white;
 }
 
-/* banner */
+/* 배너 */
 .banner {
     width: 970px;
-    height: 280px;
+    height: 270px;
     display: flex;
     border-radius: 5px;
     margin: 15px auto;
@@ -195,3 +195,85 @@ li {
 .next{
     right: 15px;
 }
+
+/* 카테고리 */
+.category {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    padding: 0;
+    width: 970px;
+}
+
+.category-icon {
+    /* border: 2px solid red; */
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #FAFAFA;
+    margin: auto;
+}
+
+.category-img {
+    width: 28px;
+    height: 28px;
+    margin: 10px 10px;
+}
+
+.category-item:hover {
+    transform: translateY(-5px);
+}
+
+.category-item {
+    transition: all 0.2s ease-out;
+}
+
+.category-item p {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.category-item a {
+    text-decoration-line: none;
+}
+
+.category-item a:visited{
+    color: black;
+}
+
+/* 숨고 인기 서비스 */
+.service-slide {
+    margin: auto;
+    padding: 0;
+    width: 970px;
+    height: 270px;
+}
+
+.service-slide h2 {
+    width: 970px;
+    margin: 0 0 24px;
+    font-size: 22px;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slide-main {
+    width: 247px;
+    padding: 0 8px;
+}
+
+.slide-img img {
+    width: 231px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+
