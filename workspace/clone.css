@@ -8,6 +8,10 @@ header {
     /* border-bottom: 1px solid rgb(240, 240, 240); */
     width: 100%;
     height: 72px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10000;
 }
 
 .header-top {
@@ -202,7 +206,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px auto;
+    margin: 30px auto 80px;
     padding: 0;
     width: 970px;
 }
@@ -247,7 +251,7 @@ li {
 
 /* 숨고 인기 서비스 */
 .service-slide {
-    margin: auto;
+    margin: auto auto 80px;
     padding: 0;
     width: 970px;
     height: 270px;
@@ -255,11 +259,16 @@ li {
 
 .service-slide h2 {
     width: 970px;
+    height: 36px;
     margin: 0 0 24px;
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    word-spacing: -4px;
 }
 
 .slide {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -270,10 +279,208 @@ li {
     padding: 0 8px;
 }
 
+.slide-main-first {
+    width: 247px;
+    padding: 0 8px 0 0;
+}
+
+.slide-main-last {
+    width: 247px;
+    padding: 0 0 0 8px;
+}
+
 .slide-img img {
     width: 231px;
     margin-bottom: 8px;
     border-radius: 8px;
 }
 
+.slide-title {
+    font-size: 16px;
+    margin: 0 0 4px;
+}
 
+.slide-next {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+    right: 25px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a .slide-title {
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+}
+
+a .slide-num {
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.slide-sub-img {
+    position: relative;
+    top: 3px;
+}
+
+/* 숨고 커뮤니티에 물어보세요 */
+.community {
+    width: 970px;
+    height: 357px;
+    margin: auto auto 80px;
+}
+
+.community-title {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community-title h2 {
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: -2px;
+    color: 323232;
+}
+
+.community-title a {
+    font-size: 16px;
+    color: rgb(0, 199, 174);
+    display: flex;
+    align-items: center;
+}
+
+.community-title a span {
+    position: relative;
+    bottom: 2px;
+}
+
+.contents-section {
+    display: flex;
+    align-items: center;
+}
+
+.contents-left {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.contents-list {
+    margin: 0;
+    padding: 0;
+}
+
+.contents-list a {
+    display: flex;
+    align-items: center;
+    padding: 12px 2px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.thumbnail-container1,
+.thumbnail-container3 {
+    width: 403px;
+}
+
+.thumbnail-container2 {
+    width: 481px;
+}
+
+.con1 {
+    font-size: 12px;
+    color: #737373;
+    margin: 0 0 5px;
+}
+
+.con2 {
+    font-size: 14px;
+    color: #323232;
+    margin: 0 0 3px;
+}
+
+.con3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-size: 14px;
+    color: #737373;
+}
+
+.contents-reactions {
+    display: flex;
+    align-items: center;
+    margin: 6px 0 0;
+}
+
+.contents-reactions span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    color: rgb(197, 197, 197);
+    margin-right: 14px;
+}
+
+.contents-reactions img {
+    margin-right: 4px;
+}
+
+.thumbnail-img {
+    margin-left: 12px;
+}
+
+.thumbnail-img img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid rgb(244, 244, 244);
+}
+
+.contents-right {
+    margin: 24px 0;
+}
+
+.contents-right a {
+    display: flex;
+    align-items: center;
+}
+
+.a1 {
+    margin-bottom: 28px;
+}
+
+.contents-right a img {
+    width: 209px;
+    height: 140px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.con2-1 {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 8px;
+}
+
+.con2-2 {
+    font-size: 16px;
+    color: #323232;
+    margin-bottom: 24px;
+}
+
+.con2-3 {
+    font-size: 14px;
+    color: #737373;
+    margin: 0;
+}
